@@ -37,6 +37,7 @@ function populateTextarea() {
 
         for (const key of keys) {
             refs.form.elements[key].value = pasrsedSav[key];
+            formData[key] = pasrsedSav[key];
         }
     }
 }
