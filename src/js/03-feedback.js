@@ -7,8 +7,8 @@ const refs = {
 };
 
 const STORAGE_KEY = "feedba0ck-form-state";
-populateTextarea();
 let formData = {};
+populateTextarea();
 
 refs.form.addEventListener('submit', onFormSubmit);
 refs.form.addEventListener('input', throttle(onTextareaInput, 500));
